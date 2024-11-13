@@ -3,5 +3,5 @@ getName = "BatMan";
 console.log(getName);
 
 const username = "Naresh";
-username = "Suresh";
+// username = "Suresh";
 console.log(username);
