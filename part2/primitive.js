@@ -33,3 +33,6 @@ console.log(oldGreet);
 
 let newGreet = "Hello ${username} !";
 console.log(newGreet);
+
+let chatGreet = `Hello ${username} !`;
+console.log(chatGreet);
