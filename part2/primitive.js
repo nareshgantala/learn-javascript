@@ -15,5 +15,10 @@ let isActive = true;
 
 console.log(typeof isActive);
 
+//undefined
 let firstname;
 console.log(typeof firstname);
+
+//null
+let lastname = null;
+console.log(typeof lastname);
