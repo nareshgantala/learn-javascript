@@ -14,3 +14,6 @@ console.log(typeof anotherBalance);
 let isActive = true;
 
 console.log(typeof isActive);
+
+let firstname;
+console.log(typeof firstname);
