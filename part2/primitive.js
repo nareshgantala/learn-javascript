@@ -31,5 +31,5 @@ let username = "Hitesh";
 let oldGreet = myString + " Naresh";
 console.log(oldGreet);
 
-let newGreet = 'Hello ${username} !'
+let newGreet = "Hello ${username} !";
 console.log(newGreet);
