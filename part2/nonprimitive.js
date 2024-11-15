@@ -10,6 +10,11 @@ console.log(username);
 console.log(typeof(username));
 console.log(username.isLoggedIn);
 
+// array
+let anotherUser = ["Naresh", true]
+console.log(anotherUser[0]);
+
+
 
 
 
