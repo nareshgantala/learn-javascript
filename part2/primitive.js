@@ -22,3 +22,12 @@ console.log(typeof firstname);
 //null
 let lastname = null;
 console.log(typeof lastname);
+
+//string
+let myString = "Hello"
+let myStringOne = "Hola"
+let username = 'Hitesh'
+
+let oldGreet = myString + 'Naresh'
+console.log(oldGreet);
+
