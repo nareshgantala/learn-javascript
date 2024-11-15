@@ -8,3 +8,9 @@ console.log(anotherBalance.valueOf());
 
 console.log(typeof balance);
 console.log(typeof anotherBalance);
+
+//boolean
+
+let isActive = true;
+
+console.log(typeof isActive);
