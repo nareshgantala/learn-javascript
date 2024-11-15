@@ -5,3 +5,5 @@ let username = {
 
 console.log(username.firstname);
 console.log(username["lastname"]);
+
+
