@@ -14,6 +14,13 @@ console.log(username.isLoggedIn);
 let anotherUser = ["Naresh", true]
 console.log(anotherUser[0]);
 
+let isValue = "2bc";
+console.log(typeof(Number(isValue)));
+console.log(Number(null));
+
+
+
+
 
 
 
