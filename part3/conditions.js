@@ -13,3 +13,15 @@ if (num1 > num2) {
 }
 
 console.log("lower code");
+
+// check if strings are equal
+
+let username = "Naresh"
+let anotherUsername = "Naresh"
+
+if (username == anotherUsername) {
+    console.log("Pick another username");
+}else {
+    console.log("use this user");
+    
+}
