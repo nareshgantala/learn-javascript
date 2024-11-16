@@ -18,4 +18,5 @@ console.log(citiesVisited);
 
 let teaOrders = ["chai", "iced tea", "matcha", "earl grey"];
 teaOrders.pop();
+teaOrders.pop();
 console.log(teaOrders);
