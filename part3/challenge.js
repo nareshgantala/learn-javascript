@@ -13,4 +13,5 @@ console.log(teaTypes);
 let citiesVisited = ["Mumbai", "Sydney"];
 citiesVisited[2] = "Berlin";
 citiesVisited[citiesVisited.length] = "HYD";
+citiesVisited.push(vizag)
 console.log(citiesVisited);
