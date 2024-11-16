@@ -20,12 +20,13 @@ let teaOrders = ["chai", "iced tea", "matcha", "earl grey"];
 let lastOrder = teaOrders.pop();
 console.log(lastOrder);
 
-let popularTeas = ["green tea", "oolang tea","chai"];
-let softCopyTeas = popularTeas
-popularTeas.pop()
+let popularTeas = ["green tea", "oolang tea", "chai"];
+let softCopyTeas = popularTeas;
+popularTeas.pop();
 console.log(softCopyTeas);
 console.log(popularTeas);
 
-
-
- 
+let topCities = ["Berlin", "Singapore", "New York"];
+let hardCopyCities = [...topCities];
+topCities.pop();
+console.log(hardCopyCities);
