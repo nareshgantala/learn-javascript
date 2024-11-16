@@ -38,5 +38,5 @@ let worldCities = europeanCities.concat(asianCities);
 console.log(worldCities);
 
 let teaMenu = ["Masala Chai", "Oolang tea", "Green chai", "earl grey"];
-const menuLength = teaMenu.length();
+const menuLength = teaMenu.length;
 console.log(menuLength);
