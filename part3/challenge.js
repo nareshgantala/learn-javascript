@@ -31,3 +31,9 @@ let hardCopyCities = [...topCities];
 topCities.pop();
 console.log(topCities);
 console.log(hardCopyCities);
+
+let europeanCities = ["paris", "rome"];
+let asianCities = ["tokyo", "bangkok"];
+let worldCities = europeanCities + asianCities
+console.log(worldCities);
+
