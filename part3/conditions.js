@@ -18,7 +18,7 @@ console.log("lower code");
 let username = "Naresh";
 let anotherUsername = "Naresh";
 
-if (username != anotherUsername) {
+if (username == anotherUsername) {
   console.log("Pick another username");
 } else {
   console.log("use this user");
