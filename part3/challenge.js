@@ -34,6 +34,5 @@ console.log(hardCopyCities);
 
 let europeanCities = ["paris", "rome"];
 let asianCities = ["tokyo", "bangkok"];
-let worldCities = europeanCities + asianCities
+let worldCities = europeanCities.concat(asianCities);
 console.log(worldCities);
-
