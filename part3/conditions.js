@@ -23,3 +23,11 @@ if (username == anotherUsername) {
 } else {
   console.log("use this user");
 }
+
+//check if variable is a number or not
+let score = 45;
+if (typeof score === "number") {
+  console.log("this is a number");
+} else {
+  console.log("this is not a number");
+}
