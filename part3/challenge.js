@@ -17,6 +17,15 @@ citiesVisited.push("vizag");
 console.log(citiesVisited);
 
 let teaOrders = ["chai", "iced tea", "matcha", "earl grey"];
-teaOrders.pop();
-teaOrders.pop();
-console.log(teaOrders);
+let lastOrder = teaOrders.pop();
+console.log(lastOrder);
+
+let popularTeas = ["green tea", "oolang tea","chai"];
+let softCopyTeas = popularTeas
+popularTeas.pop()
+console.log(softCopyTeas);
+console.log(popularTeas);
+
+
+
+ 
