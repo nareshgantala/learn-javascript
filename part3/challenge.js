@@ -12,6 +12,7 @@ let teaTypes = ["herbal tea", "white tea", "masala chai"];
 teaTypes[1] = "jasmine tea";
 console.log(teaTypes);
 
-let citiesVisited = ["Mumbai", "Sydney"]
-citiesVisited[2] = "Berlin"
+let citiesVisited = ["Mumbai", "Sydney"];
+citiesVisited[2] = "Berlin";
+citiesVisited[citiesVisited.length+1] = "HYD";
 console.log(citiesVisited);
