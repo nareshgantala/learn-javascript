@@ -15,3 +15,7 @@ citiesVisited[2] = "Berlin";
 citiesVisited[citiesVisited.length] = "HYD";
 citiesVisited.push("vizag");
 console.log(citiesVisited);
+
+let teaOrders = ["chai", "iced tea", "matcha", "earl grey"];
+teaOrders.pop();
+console.log(teaOrders);
