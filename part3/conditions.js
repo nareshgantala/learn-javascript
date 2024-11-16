@@ -42,3 +42,12 @@ if (isTeaReady) {
   console.log('Tea is not ready');
   
 }
+// check if array has items
+
+let items = [];
+if (items.length === 0) {
+  console.log('Array length is zero');
+}else {
+  console.log('Array length is not equal to zero');
+  
+}
