@@ -40,3 +40,7 @@ console.log(worldCities);
 let teaMenu = ["Masala Chai", "Oolang tea", "Green chai", "earl grey"];
 const menuLength = teaMenu.length;
 console.log(menuLength);
+
+let cityBucketList = ["Kyto", "London", "Cape Town", "Vancouver"];
+let isLondininLIst = cityBucketList.includes("London");
+console.log(isLondininLIst);
