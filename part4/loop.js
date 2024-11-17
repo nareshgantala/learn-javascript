@@ -41,3 +41,11 @@ do {
   l++;
 } while (l <= 3);
 console.log(total);
+
+let multipiedNumbers = [];
+let numbers = [2, 4, 6];
+for (let m = 0; m <= numbers.length; m++) {
+  takeNumber = numbers[m] * 2;
+  multipiedNumbers.push(takeNumber);
+}
+console.log(multipiedNumbers);
