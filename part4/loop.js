@@ -38,6 +38,6 @@ let total = 0;
 let l = 1;
 do {
   total += l;
-  k++;
+  l++;
 } while (l <= 3);
 console.log(total);
