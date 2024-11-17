@@ -14,3 +14,11 @@ while (j <= 5) {
   j += 1;
 }
 console.log(sum2);
+
+let countdown = [];
+let k = 5
+while (k > 0) {
+    countdown.push(k)
+    k--
+}
+console.log(countdown);
