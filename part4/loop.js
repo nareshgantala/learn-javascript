@@ -1,3 +1,4 @@
+// while loop
 let sum = 0;
 let i = 0;
 
@@ -16,18 +17,27 @@ while (j <= 5) {
 console.log(sum2);
 
 let countdown = [];
-let k = 5
+let k = 5;
 while (k > 0) {
-    countdown.push(k)
-    k--
+  countdown.push(k);
+  k--;
 }
 console.log(countdown);
 
+// dowhile loop
 let teaCollection = [];
 let tea;
 do {
-    tea = prompt(`Enter your favourite tea(type "stop" to finish)`)
-    if (tea != "stop") {
-        teaCollection.push(tea)
-    }
+  tea = prompt(`Enter your favourite tea(type "stop" to finish)`);
+  if (tea != "stop") {
+    teaCollection.push(tea);
+  }
 } while (tea != "stop");
+
+let total = 0;
+let l = 1;
+do {
+  total += l;
+  k++;
+} while (l <= 3);
+console.log(total);
