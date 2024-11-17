@@ -42,10 +42,19 @@ do {
 } while (l <= 3);
 console.log(total);
 
+// for loop
 let multipiedNumbers = [];
 let numbers = [2, 4, 6];
-for (let m = 0; m <= numbers.length; m++) {
+for (let m = 0; m < numbers.length; m++) {
   takeNumber = numbers[m] * 2;
   multipiedNumbers.push(takeNumber);
 }
 console.log(multipiedNumbers);
+
+let cities = ["Hyd", "Mum", "Vizag"];
+let cityList = [];
+for (let c = 0; c < cities.length; c++) {
+  const myCity = cities[c];
+  cityList.push(myCity);
+}
+console.log(cityList);
