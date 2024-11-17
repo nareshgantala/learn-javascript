@@ -10,7 +10,7 @@ console.log(sum);
 let sum2 = 0;
 let j = 1;
 while (j <= 5) {
-  sum += i;
-  i += 1;
+  sum += j;
+  j += 1;
 }
 console.log(sum2);
