@@ -58,3 +58,5 @@ for (let c = 0; c < cities.length; c++) {
   cityList.push(myCity);
 }
 console.log(cityList);
+
+
