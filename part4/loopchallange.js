@@ -14,9 +14,11 @@ console.log(selectedTeas);
 let cities = ["new York", "HYD", "Paris", "Italy"];
 let selectedCities = [];
 for (let i = 0; i < cities.length; i++) {
-  if (cities[i] === "Paris") {
+  if (cities[i] === "Paris" || cities[i] === "paris") {
     continue;
   }
   selectedCities.push(cities[i]);
 }
 console.log(selectedCities);
+
+// ex:3
