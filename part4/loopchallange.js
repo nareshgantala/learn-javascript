@@ -8,3 +8,15 @@ for (let i = 0; i < teas.length; i++) {
   selectedTeas.push(teas[i]);
 }
 console.log(selectedTeas);
+
+// ex:2
+
+let cities = ["new York", "HYD", "Paris", "Italy"];
+let selectedCities = [];
+for (let i = 0; i < cities.length; i++) {
+  if (cities[i] === "Paris") {
+    continue;
+  }
+  selectedCities.push(cities[i]);
+}
+console.log(selectedCities);
