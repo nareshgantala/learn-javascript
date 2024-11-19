@@ -101,3 +101,16 @@ myWorldCities.forEach((city) => {
   travelledCities.push(city);
 });
 console.log(travelledCities);
+
+// ex:9
+let numList = [2,5,7,9];
+let doubledNum = [];
+for (let i = 0; i < numList.length; i++) {
+  if (numList[i] === 7) {
+    continue
+  }
+  doubledNum.push(numList[i]*2)
+  
+}
+console.log(doubledNum);
+
