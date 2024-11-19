@@ -123,3 +123,9 @@ for (const tea of teaLists) {
   shortTeas.push(tea);
 }
 console.log(shortTeas);
+
+let n = 0;
+while (n < 3) {
+  console.log(n);
+  n++;
+}
