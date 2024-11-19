@@ -21,7 +21,7 @@ for (let i = 0; i < cities.length; i++) {
 }
 console.log(selectedCities);
 
-// ex:3
+// ex:3 - for-of loop
 let numbers = [1, 2, 3, 4];
 let smallNumbers = [];
 for (const num of numbers) {
@@ -43,3 +43,13 @@ for (const tea of teaList) {
   preferredTea.push(tea);
 }
 console.log(preferredTea);
+
+// ex:5 for-in loop
+let citiesPopulation = {
+  London: 89000,
+  "New York": 84000,
+  Paris: 22000,
+  Berlin: 35000,
+};
+let cityPopulation = {};
+console.log(Object.keys(citiesPopulation));
