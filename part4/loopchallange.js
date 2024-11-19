@@ -78,3 +78,15 @@ for (const city in worldCities) {
 }
 
 console.log(newCities);
+
+// ex:7
+let chaiList = ["green tea", "oolang tea", "allam chai", "black tea"];
+let availableTeas = [];
+
+chaiList.forEach((tea) => {
+  if (tea === "allam chai") {
+    return;
+  }
+  availableTeas.push(tea);
+});
+console.log(availableTeas);
