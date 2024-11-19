@@ -60,3 +60,21 @@ for (const city in citiesPopulation) {
   cityNewPopulation[city] = citiesPopulation[city];
 }
 console.log(cityNewPopulation);
+
+//ex:6
+let worldCities = {
+  "New York": 3000000,
+  HYD: 2000000,
+  VIZAG: 5000000,
+  MUBAI: 6000000,
+};
+let newCities = {};
+
+for (const city in worldCities) {
+  if (worldCities[city] < 3000000) {
+    continue;
+  }
+  newCities[city] = worldCities[city];
+}
+
+console.log(newCities);
