@@ -54,6 +54,9 @@ let citiesPopulation = {
 let cityNewPopulation = {};
 // console.log(Object.values(citiesPopulation));
 for (const city in citiesPopulation) {
+  if (city == "Berlin") {
+    break;
+  }
   cityNewPopulation[city] = citiesPopulation[city];
 }
 console.log(cityNewPopulation);
