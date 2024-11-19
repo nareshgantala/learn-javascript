@@ -52,4 +52,4 @@ let citiesPopulation = {
   Berlin: 35000,
 };
 let cityPopulation = {};
-console.log(Object.keys(citiesPopulation));
+console.log(Object.values(citiesPopulation));
