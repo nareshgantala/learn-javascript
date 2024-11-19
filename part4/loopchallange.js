@@ -79,7 +79,7 @@ for (const city in worldCities) {
 
 console.log(newCities);
 
-// ex:7
+// ex:7 foreach loop
 let chaiList = ["green tea", "oolang tea", "allam chai", "black tea"];
 let availableTeas = [];
 
