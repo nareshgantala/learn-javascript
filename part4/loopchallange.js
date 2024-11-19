@@ -103,14 +103,23 @@ myWorldCities.forEach((city) => {
 console.log(travelledCities);
 
 // ex:9
-let numList = [2,5,7,9];
+let numList = [2, 5, 7, 9];
 let doubledNum = [];
 for (let i = 0; i < numList.length; i++) {
   if (numList[i] === 7) {
-    continue
+    continue;
   }
-  doubledNum.push(numList[i]*2)
-  
+  doubledNum.push(numList[i] * 2);
 }
 console.log(doubledNum);
 
+// ex:10
+let teaLists = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"];
+let shortTeas = [];
+for (const tea of teaLists) {
+  if (tea.length > 10) {
+    continue;
+  }
+  shortTeas.push(tea);
+}
+console.log(shortTeas);
