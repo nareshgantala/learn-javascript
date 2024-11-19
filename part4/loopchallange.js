@@ -90,3 +90,14 @@ chaiList.forEach((tea) => {
   availableTeas.push(tea);
 });
 console.log(availableTeas);
+
+// ex:8
+let myWorldCities = ["Berlin", "Tokyo", "Sydny", "Paris"];
+let travelledCities = [];
+myWorldCities.forEach((city) => {
+  if (city == "Sydny") {
+    return;
+  }
+  travelledCities.push(city);
+});
+console.log(travelledCities);
