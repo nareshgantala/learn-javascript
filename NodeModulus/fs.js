@@ -35,3 +35,12 @@ fs.rename("demo.html", "demochange.html", (err) => {
     console.log("File Name Changed Successfully");
   }
 });
+
+// ex:5
+fs.unlink("demochange.html", (err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("File Deleted!");
+  }
+});
