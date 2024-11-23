@@ -9,7 +9,9 @@ MongoClient.connect(process.env.MONGO_URI)
   .then(() => {
     console.log("Mongo DB connected successfully");
   })
-  .catch(error);
+  .catch((error) => {
+    console.error("Error connecting to MongoDB:", error);
+  });
 
 app.listen(PORT, () => {
   console.log("server started");
