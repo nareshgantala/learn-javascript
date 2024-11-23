@@ -2,5 +2,5 @@
 // console.log(__dirname);
 
 const path = require("path");
-file_name = path.diename(__filename);
+file_name = path.dirname(__filename);
 console.log(file_name);
