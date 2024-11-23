@@ -28,7 +28,7 @@ fs.writeFile("demo.html", content, (err) => {
 
 // ex:4
 
-fs.writeFile("demo.html", "demochange.html", (err) => {
+fs.rename("demo.html", "demochange.html", (err) => {
   if (err) {
     console.log(err);
   } else {
