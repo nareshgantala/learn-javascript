@@ -1,5 +1,5 @@
 const server = require("http");
-http.createServer((req, res) => {
+server.createServer((req, res) => {
   res.write("Hello India!");
   res.end();
 });
