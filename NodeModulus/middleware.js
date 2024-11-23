@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.send("Hello I am Home");
 });
 
+app.get("/About", (req, res) => {
+  res.send("I am About");
+});
+
 app.listen(port, () => {
   console.log("server running..");
 });
