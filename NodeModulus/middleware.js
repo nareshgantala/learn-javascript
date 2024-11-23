@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.use((req, res, next) => {
-  if (10 < 20) {
+  if (20 < 10) {
     next();
   }
 });
