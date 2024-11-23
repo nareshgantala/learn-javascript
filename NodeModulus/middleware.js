@@ -2,6 +2,12 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
+app.use((req, res, next) => {
+  if (10 < 20) {
+    next();
+  }
+});
+
 app.get("/", (req, res) => {
   res.send("Hello I am Home");
 });
