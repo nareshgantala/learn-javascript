@@ -18,3 +18,7 @@ mongoose
   .catch((error) => {
     console.error("Error connecting to MongoDB:", error);
   });
+
+app.listen(PORT, () => {
+  console.log("server running");
+});
